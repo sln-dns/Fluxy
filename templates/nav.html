@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <meta property="og:title" content="Shorty - URL Shortener" />
+    <meta property="og:title" content="Fluxy" />
     <meta
       property="og:description"
       content="Generate random or custom short URLs as well as QR Code for your long URLs."
@@ -24,7 +24,7 @@
       content="https://w0.pngwave.com/png/789/777/computer-icons-tinyurl-hyperlink-symbol-url-shortening-chain-png-clip-art.png"
     />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-    <title>Shorty | URL Shortener</title>
+    <title>Fluxy | URL Shortener</title>
     <style>
       body {
         font-family: "Baloo Thambi 2", cursive;
@@ -42,7 +42,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="{% url 'home' %}">Shorty</a>
+        <a class="navbar-brand" href="{% url 'home' %}">Fluxy</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -92,12 +92,8 @@
 
             {% endif %}
             <li class="nav-item">
-              <a
-                class="nav-link"
-                href="http://ashutoshkrris.herokuapp.com"
-                target="_blank"
-                >Developer</a
-              >
+              
+              
             </li>
           </ul>
         </div>
@@ -110,10 +106,10 @@
 
     <footer>
       <div class="footer-copyright text-center py-3">
-        Made with ❤️️ using Django <br />© 2020 Copyright
-        <a href="http://ashutoshkrris.herokuapp.com/"> Ashutosh Krishna</a>
+        Fluxy <br />
       </div>
     </footer>
+   
     <script>
       $("#getAPIBtn").click(function (e) {
         e.preventDefault();
@@ -180,6 +176,7 @@
           }
         });
       });
-    </script>
+    </script> 
+  
   </body>
 </html>
